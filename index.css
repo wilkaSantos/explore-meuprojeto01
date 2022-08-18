@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@300;700&display=swap'); /* font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+body{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.hero{
+    width: 592px;
+    margin: 0 auto 72px;
+}
+
+.imagemSala{
+    margin-bottom: 72px;
+}
+
+.titulo{
+    font-family: 'Inter', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+    margin-bottom: 32px;
+}
+
+.titulo span{ 
+    font-weight: bold; 
+}
+
+span, .link{
+    color: #ff9900;
+}
+
+.paragrafo, footer{
+    color: #7d7987;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+footer{
+    margin-bottom: 3px;
+}
+
+.linha{
+    width: 568px;
+    height: 0;
+    border:  1px solid #eceff2;
+    margin: 0 auto 8px;
+}
+
+.link + .link{
+    margin-left: 28px ;
+}
+
+.balls{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
